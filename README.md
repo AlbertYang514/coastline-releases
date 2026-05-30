@@ -66,6 +66,8 @@ Coastline 的主要模型分析功能依赖用户自行配置的第三方模型 
 
 当用户运行 AI 分析或其他依赖模型的功能时，相关项目文本可能会发送到用户配置的第三方模型 API。API 使用费用、可用性、数据处理方式和服务条款由对应第三方模型服务商决定。
 
+当前版本中，Coastline 开发者不向用户收取软件下载费、订阅费、账号费或模型调用费。用户配置第三方模型 API 后产生的 API 使用费用，由对应第三方模型服务商收取，并由用户自行承担。Coastline 开发者不会通过 Coastline 本应用代收、加价转售或转售第三方模型 API 调用。
+
 使用前请阅读 `PRIVACY.md`。
 
 ### 闭源与授权
@@ -220,6 +222,8 @@ Coastline's primary model-analysis features depend on a third-party model API ke
 If the user does not configure a third-party model API key, Coastline's model-analysis features will be unavailable or not fully usable.
 
 When the user runs AI analysis or other model-dependent features, relevant project text may be sent to the third-party model API configured by the user. API usage, costs, availability, data handling, and terms are governed by the corresponding third-party model provider.
+
+In the current release, the Coastline developer does not charge users any software download fee, subscription fee, account fee, or model usage fee. Any API usage fees incurred through third-party model APIs configured by the user are charged by the corresponding third-party model provider and are the user's responsibility. The Coastline developer does not collect, mark up, resell, or broker third-party model API usage through the Coastline application.
 
 Please read `PRIVACY.md` before using the software.
 

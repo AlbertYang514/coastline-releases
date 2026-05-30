@@ -61,6 +61,8 @@ API key 由用户自行配置，并保存在用户本机。
 
 用户需要自行保管 API key，监控 API 使用情况，并承担所选模型服务商产生的 API 费用。
 
+当前版本中，Coastline 开发者不向用户收取软件下载费、订阅费、账号费或模型调用费。用户配置第三方模型 API 后产生的 API 使用费用，由对应第三方模型服务商收取，并由用户自行承担。Coastline 开发者不会通过 Coastline 本应用代收、加价转售或转售第三方模型 API 调用。
+
 ## 开发者无法主动获取的信息
 
 在当前版本设计下，开发者无法通过 Coastline 本应用主动获取以下信息：
@@ -164,6 +166,8 @@ API keys are configured by the user and stored on the user's local machine.
 The developer does not actively collect, upload, view, or store user API keys.
 
 Users are responsible for keeping their API keys secure, monitoring API usage, and paying any API costs charged by their chosen model provider.
+
+In the current release, the Coastline developer does not charge users any software download fee, subscription fee, account fee, or model usage fee. Any API usage fees incurred through third-party model APIs configured by the user are charged by the corresponding third-party model provider and are the user's responsibility. The Coastline developer does not collect, mark up, resell, or broker third-party model API usage through the Coastline application.
 
 ## Information the developer cannot actively access
 
