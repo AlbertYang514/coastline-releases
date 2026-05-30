@@ -155,7 +155,7 @@ Windows 版目前没有代码签名。
 
 **A Narrative Control System**
 
-> Download Coastline 1.2.0 Beta / Download Coastline 1.2.0 Beta:  
+> Download Coastline 1.2.0 Beta:  
 > https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.2.0
 
 Coastline is a local-first desktop writing system for long-form narrative projects.
