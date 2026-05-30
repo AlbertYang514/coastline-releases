@@ -85,7 +85,7 @@ Coastline 当前是早期 beta 版本，可能存在 bug。
 
 ## macOS 安装说明
 
-1. 下载 `Coastline-1.2.dmg`。
+1. 下载 `Coastline-1.2.0-beta-macOS.dmg`。
 2. 打开 DMG 文件。
 3. 将 `Coastline.app` 拖入“应用程序”文件夹。
 4. 从“应用程序”中打开 Coastline。
@@ -121,7 +121,7 @@ open "/Applications/Coastline.app"
 
 ## Windows 安装说明
 
-1. 下载 `CoastlineSetup-1.2-win-x64.exe`。
+1. 下载 `Coastline-1.2.0-beta-win-x64.exe`。
 2. 运行安装包。
 3. 按安装向导完成安装。
 4. 从开始菜单或桌面快捷方式打开 Coastline。
@@ -238,7 +238,7 @@ Please back up your writing projects, exported files, and important materials be
 
 ## macOS installation
 
-1. Download `Coastline-1.2.dmg`.
+1. Download `Coastline-1.2.0-beta-macOS.dmg`.
 2. Open the DMG file.
 3. Move `Coastline.app` to the `Applications` folder.
 4. Open Coastline from `Applications`.
@@ -274,7 +274,7 @@ Only install Coastline if you downloaded it from the official release page and t
 
 ## Windows installation
 
-1. Download `CoastlineSetup-1.2-win-x64.exe`.
+1. Download `Coastline-1.2.0-beta-win-x64.exe`.
 2. Run the installer.
 3. Follow the installation wizard.
 4. Open Coastline from the Start menu or desktop shortcut.
