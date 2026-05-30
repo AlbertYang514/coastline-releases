@@ -39,9 +39,15 @@ Coastline 目前不提供云账号系统。
 
 ## 模型 API 请求
 
-只有当用户配置 API key 并运行 AI 分析时，Coastline 才会调用第三方模型 API。
+Coastline 的主要模型分析功能依赖用户自行配置的第三方模型 API key。
 
-当用户触发 AI 分析时，相关项目文本可能会发送到用户配置的第三方模型 API。这可能包括章节内容、项目背景、时间线信息、事实记录、问题记录和相关写作上下文。
+Coastline 不提供内置模型服务，也不提供由开发者运营的模型代理服务器。
+
+如果用户不配置第三方模型 API key，Coastline 的模型分析相关功能将无法使用或无法完整使用。
+
+只有当用户配置 API key 并使用相关分析功能时，Coastline 才会向用户配置的第三方模型 API 发起请求。
+
+当用户触发 AI 分析或其他依赖模型的功能时，相关项目文本可能会发送到用户配置的第三方模型 API。这可能包括章节内容、项目背景、时间线信息、事实记录、问题记录和相关写作上下文。
 
 这些数据如何被处理，取决于用户选择和配置的第三方模型服务商的隐私政策、服务条款和数据处理规则。
 
@@ -137,9 +143,15 @@ The developer does not operate a Coastline cloud server for storing user project
 
 ## Model API requests
 
-Coastline uses third-party model APIs only when the user configures an API key and runs AI analysis.
+Coastline's primary model-analysis features depend on a third-party model API key configured by the user.
 
-When AI analysis is triggered, relevant project text may be sent to the third-party model API configured by the user. This may include chapter content, project background, timeline information, fact records, issue records, and related writing context.
+Coastline does not provide a built-in model service and does not operate a model proxy server controlled by the developer.
+
+If the user does not configure a third-party model API key, Coastline's model-analysis features will be unavailable or not fully usable.
+
+Only when the user configures an API key and uses related analysis features does Coastline send requests to the third-party model API configured by the user.
+
+When the user triggers AI analysis or other model-dependent features, relevant project text may be sent to the third-party model API configured by the user. This may include chapter content, project background, timeline information, fact records, issue records, and related writing context.
 
 The handling of such data is governed by the privacy policy, terms of service, and data processing rules of the third-party model provider selected and configured by the user.
 

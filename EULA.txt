@@ -29,9 +29,11 @@ Coastline 是专有、闭源、仅发布二进制安装包的软件。
 
 4. 第三方模型 API
 
-Coastline 不提供内置模型服务。
+Coastline 不提供内置模型服务，也不提供由作者运营的模型代理服务器。
 
-当你配置 API key 并运行 AI 分析时，Coastline 可能会将相关项目文本发送给你配置的第三方模型 API。这些文本可能包括章节内容、项目背景、时间线信息、事实记录、问题记录和相关写作上下文。
+Coastline 的主要模型分析功能依赖你自行配置的第三方模型 API key。如果你不配置第三方模型 API key，Coastline 的模型分析相关功能将无法使用或无法完整使用。
+
+当你配置 API key 并运行 AI 分析或其他依赖模型的功能时，Coastline 可能会将相关项目文本发送给你配置的第三方模型 API。这些文本可能包括章节内容、项目背景、时间线信息、事实记录、问题记录和相关写作上下文。
 
 你需要自行选择模型服务商，阅读其服务条款和隐私政策，保管 API key，并承担相关 API 费用。
 
@@ -102,9 +104,11 @@ You must not use Coastline to process content that you do not have the right to 
 
 4. Third-party model APIs
 
-Coastline does not provide a built-in model service.
+Coastline does not provide a built-in model service and does not operate a model proxy server controlled by the author.
 
-When you configure an API key and run AI analysis, Coastline may send relevant project text to the third-party model API configured by you. This may include chapter content, project background, timeline information, fact records, issue records, and related writing context.
+Coastline's primary model-analysis features depend on a third-party model API key configured by you. If you do not configure a third-party model API key, Coastline's model-analysis features will be unavailable or not fully usable.
+
+When you configure an API key and run AI analysis or other model-dependent features, Coastline may send relevant project text to the third-party model API configured by you. This may include chapter content, project background, timeline information, fact records, issue records, and related writing context.
 
 You are responsible for choosing the model provider, reviewing its terms and privacy policy, securing your API key, and paying any API costs.
 

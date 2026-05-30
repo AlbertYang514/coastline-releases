@@ -56,13 +56,15 @@ Coastline 将项目文件默认保存在用户本机。
 
 ### 第三方模型 API
 
-Coastline 不提供内置模型服务。
+Coastline 不提供内置模型服务，也不提供由开发者运营的模型代理服务器。
 
-用户需要自行配置模型 API key。当前版本主要支持：
+Coastline 的主要模型分析功能依赖用户自行配置的第三方模型 API key。当前版本主要支持：
 
 - `deepseek-v4-pro`
 
-当用户运行 AI 分析时，相关项目文本可能会发送到用户配置的第三方模型 API。API 使用费用、可用性、数据处理方式和服务条款由对应第三方模型服务商决定。
+如果用户不配置第三方模型 API key，Coastline 的模型分析相关功能将无法使用或无法完整使用。
+
+当用户运行 AI 分析或其他依赖模型的功能时，相关项目文本可能会发送到用户配置的第三方模型 API。API 使用费用、可用性、数据处理方式和服务条款由对应第三方模型服务商决定。
 
 使用前请阅读 `PRIVACY.md`。
 
@@ -209,13 +211,15 @@ Through the Coastline application itself, the developer cannot actively access t
 
 ### Third-party model API
 
-Coastline does not provide a built-in model service.
+Coastline does not provide a built-in model service and does not operate a model proxy server controlled by the developer.
 
-Users need to configure their own model API key. The current version mainly supports:
+Coastline's primary model-analysis features depend on a third-party model API key configured by the user. The current version mainly supports:
 
 - `deepseek-v4-pro`
 
-When the user runs AI analysis, relevant project text may be sent to the third-party model API configured by the user. API usage, costs, availability, data handling, and terms are governed by the corresponding third-party model provider.
+If the user does not configure a third-party model API key, Coastline's model-analysis features will be unavailable or not fully usable.
+
+When the user runs AI analysis or other model-dependent features, relevant project text may be sent to the third-party model API configured by the user. API usage, costs, availability, data handling, and terms are governed by the corresponding third-party model provider.
 
 Please read `PRIVACY.md` before using the software.
 
