@@ -8,18 +8,18 @@ Coastline 最终用户许可协议
 
 Coastline 是专有、闭源、仅发布二进制安装包的软件。
 
-你可以将 Coastline 的官方二进制版本用于个人、非商业的写作和试用目的。
+你可以将 Coastline 的官方二进制版本用于个人写作、私人创作项目和试用评估目的。
 
 2. 使用限制
 
 未经作者事先书面许可，你不得：
 
 - 再分发、复制、重新打包或修改本软件；
-- 出售、出租、转授权本软件，或将本软件用于商业牟利；
+- 出售、出租、转授权本软件，或将本软件作为商业服务、托管服务、再分发产品或收费工具的一部分使用；
 - 对本软件进行逆向工程、反编译、反汇编，或试图提取源码；
 - 删除或更改本软件中的版权、许可或署名信息；
-- 使用本软件从事违法、侵权、恶意或破坏性活动。
-- 你不得将 Coastline 用于违反学校、机构、平台或其他第三方规则的代写、作弊、规避审核或其他不当用途。
+- 将本软件用于违法、侵权、恶意或破坏性活动；
+- 将本软件用于违反学校、机构、平台或其他第三方规则的代写、作弊、规避审核或其他不当用途。
 
 3. 用户内容
 
@@ -81,18 +81,18 @@ By downloading, installing, or using Coastline, you agree to this End User Licen
 
 Coastline is proprietary, closed-source, binary-only software.
 
-You may use the official binary release of Coastline for personal, non-commercial writing and evaluation purposes.
+You may use the official binary release of Coastline for personal writing, private creative projects, and evaluation purposes.
 
 2. Restrictions
 
 Without prior written permission from the author, you may not:
 
 - redistribute, copy, repackage, or modify the software;
-- sell, rent, sublicense, or commercially exploit the software;
+- sell, rent, sublicense, commercially exploit, host, repackage, redistribute, or provide the software as part of a paid product or service;
 - reverse engineer, decompile, disassemble, or attempt to extract the source code;
 - remove or alter copyright, license, or attribution notices;
-- use the software for illegal, infringing, malicious, or destructive activities.
-- You may not use Coastline for ghostwriting, cheating, review evasion, or other improper uses that violate the rules of schools, institutions, platforms, or third parties.
+- use the software for illegal, infringing, malicious, or destructive activities;
+- use the software for ghostwriting, cheating, review evasion, or other improper uses that violate the rules of schools, institutions, platforms, or third parties.
 
 3. User content
 

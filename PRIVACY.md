@@ -21,6 +21,8 @@ Coastline 是本地优先软件。
 
 开发者无法通过 Coastline 本应用主动获取用户的项目内容、章节文本、API key、导出文件或其他隐私信息。
 
+第三方模型服务商对其自身服务中的数据处理承担责任；Coastline 开发者无法代表第三方服务商作出承诺。
+
 ## 本地优先存储
 
 Coastline 将写作项目保存在用户本机。
@@ -62,7 +64,7 @@ API key 由用户自行配置，并保存在用户本机。
 - 用户的时间线、事实库和问题记录；
 - 用户的导出文件；
 - 用户配置的 API key；
-- 用户的本地文件路径；
+- 用户通过 Coastline 本应用产生或保存的本地文件路径；
 - 用户的使用记录；
 - 用户的个人身份信息。
 
@@ -90,7 +92,7 @@ Coastline 目前是早期 beta 版本，可能包含 bug。
 
 ## 联系方式
 
-如有问题、反馈或与本 release 相关的移除请求，请通过官方 GitHub 仓库联系开发者。
+如有问题、反馈或与本 release 相关的移除请求，请通过官方 GitHub 仓库的 Issues、Releases 页面或其他公开联系方式联系开发者。
 
 ---
 
@@ -116,6 +118,8 @@ The developer does not operate any cloud server for Coastline, whether inside or
 The developer does not provide any Coastline cloud account system, whether inside or outside mainland China.
 
 Through the Coastline application itself, the developer cannot actively access the user's project content, chapter text, API key, exported files, or other private information.
+
+Third-party model providers are responsible for their own data handling practices; the Coastline developer cannot make commitments on their behalf.
 
 ## Local-first storage
 
@@ -158,7 +162,7 @@ In the current version design, the developer cannot actively access the followin
 - timelines, fact records, and issue records;
 - exported files;
 - configured API keys;
-- local file paths;
+- local file paths generated or stored through the Coastline application itself;
 - usage records;
 - personal identity information.
 
@@ -186,4 +190,4 @@ Users are responsible for deciding whether to trust this software, whether to co
 
 ## Contact
 
-For questions, feedback, or removal requests related to this release, please contact the developer through the official GitHub repository.
+For questions, feedback, or removal requests related to this release, please contact the developer through Issues, the Releases page, or other public contact methods on the official GitHub repository.
