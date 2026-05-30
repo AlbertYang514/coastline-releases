@@ -1,0 +1,143 @@
+Coastline 最终用户许可协议
+
+最后更新：2026-05-31
+
+下载、安装或使用 Coastline，即表示你同意本最终用户许可协议。若你不同意本协议，请不要安装或使用本软件。
+
+1. 授权
+
+Coastline 是专有、闭源、仅发布二进制安装包的软件。
+
+你可以将 Coastline 的官方二进制版本用于个人、非商业的写作和试用目的。
+
+2. 使用限制
+
+未经作者事先书面许可，你不得：
+
+- 再分发、复制、重新打包或修改本软件；
+- 出售、出租、转授权本软件，或将本软件用于商业牟利；
+- 对本软件进行逆向工程、反编译、反汇编，或试图提取源码；
+- 删除或更改本软件中的版权、许可或署名信息；
+- 使用本软件从事违法、侵权、恶意或破坏性活动。
+- 你不得将 Coastline 用于违反学校、机构、平台或其他第三方规则的代写、作弊、规避审核或其他不当用途。
+
+3. 用户内容
+
+你需要对自己使用 Coastline 创建、导入、分析、导出或分享的内容负责。
+
+你不得使用 Coastline 处理自己无权处理的内容。你也不应将高度敏感、机密、私人、违法或受监管的内容提交给第三方模型 API，除非你理解并接受相关风险。
+
+4. 第三方模型 API
+
+Coastline 不提供内置模型服务。
+
+当你配置 API key 并运行 AI 分析时，Coastline 可能会将相关项目文本发送给你配置的第三方模型 API。这些文本可能包括章节内容、项目背景、时间线信息、事实记录、问题记录和相关写作上下文。
+
+你需要自行选择模型服务商，阅读其服务条款和隐私政策，保管 API key，并承担相关 API 费用。
+
+作者无法控制第三方模型服务，也不对其可用性、价格、行为、数据处理方式或输出结果负责。
+
+5. AI 输出
+
+AI 生成的分析可能不完整、不准确、不一致或不适当。
+
+你需要自行审查所有输出，再决定是否采用。
+
+Coastline 是写作管理工具，不是专业、法律、医疗、金融、学术或编辑建议的替代品。
+
+6. 备份与数据丢失
+
+Coastline 目前是早期 beta 版本，可能包含 bug。
+
+你需要自行备份写作项目、导出文件和相关资料。
+
+作者不对数据丢失、文件损坏、导出失败、API 失败、模型服务中断或其他使用后果承担责任。
+
+7. 无担保
+
+Coastline 按“现状”和“可用状态”提供，不提供任何形式的明示或默示担保。
+
+作者不保证本软件完全无错误、不中断、适合特定用途，或一定满足你的需求。
+
+8. 责任限制
+
+在适用法律允许的最大范围内，作者不对因使用或无法使用 Coastline 产生的任何直接、间接、附带、后果性、特殊、惩罚性或其他损失承担责任。
+
+9. 终止
+
+如果你违反本协议，本授权将自动终止。
+
+授权终止后，你必须停止使用 Coastline，并删除你持有的所有软件副本。
+
+---
+
+Coastline End User License Agreement
+
+Last updated: 2026-05-31
+
+By downloading, installing, or using Coastline, you agree to this End User License Agreement. If you do not agree, do not install or use the software.
+
+1. License
+
+Coastline is proprietary, closed-source, binary-only software.
+
+You may use the official binary release of Coastline for personal, non-commercial writing and evaluation purposes.
+
+2. Restrictions
+
+Without prior written permission from the author, you may not:
+
+- redistribute, copy, repackage, or modify the software;
+- sell, rent, sublicense, or commercially exploit the software;
+- reverse engineer, decompile, disassemble, or attempt to extract the source code;
+- remove or alter copyright, license, or attribution notices;
+- use the software for illegal, infringing, malicious, or destructive activities.
+- You may not use Coastline for ghostwriting, cheating, review evasion, or other improper uses that violate the rules of schools, institutions, platforms, or third parties.
+
+3. User content
+
+You are responsible for the content you create, import, analyze, export, or share using Coastline.
+
+You must not use Coastline to process content that you do not have the right to process. You should not submit highly sensitive, confidential, private, illegal, or regulated content to third-party model APIs unless you understand and accept the related risks.
+
+4. Third-party model APIs
+
+Coastline does not provide a built-in model service.
+
+When you configure an API key and run AI analysis, Coastline may send relevant project text to the third-party model API configured by you. This may include chapter content, project background, timeline information, fact records, issue records, and related writing context.
+
+You are responsible for choosing the model provider, reviewing its terms and privacy policy, securing your API key, and paying any API costs.
+
+The author does not control third-party model services and is not responsible for their availability, pricing, behavior, data handling, or outputs.
+
+5. AI outputs
+
+AI-generated analysis may be incomplete, inaccurate, inconsistent, or inappropriate.
+
+You are responsible for reviewing all outputs before relying on them.
+
+Coastline is a writing management tool, not a substitute for professional, legal, medical, financial, academic, or editorial advice.
+
+6. Backups and data loss
+
+Coastline is an early beta release and may contain bugs.
+
+You are responsible for backing up your writing projects, exports, and related files.
+
+The author is not responsible for data loss, file corruption, failed exports, API failures, model service interruptions, or other consequences of use.
+
+7. No warranty
+
+Coastline is provided "as is" and "as available", without warranties of any kind, express or implied.
+
+The author does not guarantee that the software will be error-free, uninterrupted, fit for a particular purpose, or meet your requirements.
+
+8. Limitation of liability
+
+To the maximum extent permitted by applicable law, the author shall not be liable for any direct, indirect, incidental, consequential, special, punitive, or other damages arising from the use of or inability to use Coastline.
+
+9. Termination
+
+This license terminates automatically if you violate this agreement.
+
+Upon termination, you must stop using Coastline and delete all copies of the software in your possession.

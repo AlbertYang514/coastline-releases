@@ -1,0 +1,189 @@
+# 隐私政策
+
+最后更新：2026-05-31
+
+本隐私政策适用于 Coastline，一个本地优先的长篇写作管理桌面工具。
+
+## 核心说明
+
+Coastline 是本地优先软件。
+
+在当前版本中，用户数据只会在以下位置处理：
+
+1. 用户自己的本地设备；
+2. 用户自行配置的第三方模型 API 服务商。
+
+当前版本主要支持的模型为 `deepseek-v4-pro`，相关 API 请求由用户自行配置的 DeepSeek API key 发起。
+
+开发者不运营任何用于 Coastline 的云端服务器，不论该服务器位于中国大陆境内或境外。
+
+开发者不提供任何 Coastline 云账号系统，不论该账号系统位于中国大陆境内或境外。
+
+开发者无法通过 Coastline 本应用主动获取用户的项目内容、章节文本、API key、导出文件或其他隐私信息。
+
+## 本地优先存储
+
+Coastline 将写作项目保存在用户本机。
+
+项目文件、章节、时间线、事实记录、问题记录、导出文件和相关配置默认保存在本地，除非用户自行移动、上传、备份或分享这些文件。
+
+## 没有 Coastline 云账号
+
+Coastline 目前不提供云账号系统。
+
+用户不需要注册 Coastline 账号，也不需要登录开发者提供的服务器。
+
+开发者不运营用于保存用户项目、章节、草稿、导出文件、API key 或使用记录的 Coastline 云端服务器。
+
+## 模型 API 请求
+
+只有当用户配置 API key 并运行 AI 分析时，Coastline 才会调用第三方模型 API。
+
+当用户触发 AI 分析时，相关项目文本可能会发送到用户配置的第三方模型 API。这可能包括章节内容、项目背景、时间线信息、事实记录、问题记录和相关写作上下文。
+
+这些数据如何被处理，取决于用户选择和配置的第三方模型服务商的隐私政策、服务条款和数据处理规则。
+
+Coastline 开发者无法控制第三方模型服务商的数据处理方式，也无法代替第三方模型服务商作出隐私承诺。
+
+## API key
+
+API key 由用户自行配置，并保存在用户本机。
+
+开发者不会主动收集、上传、查看或保存用户的 API key。
+
+用户需要自行保管 API key，监控 API 使用情况，并承担所选模型服务商产生的 API 费用。
+
+## 开发者无法主动获取的信息
+
+在当前版本设计下，开发者无法通过 Coastline 本应用主动获取以下信息：
+
+- 用户的项目文件；
+- 用户的章节文本；
+- 用户的时间线、事实库和问题记录；
+- 用户的导出文件；
+- 用户配置的 API key；
+- 用户的本地文件路径；
+- 用户的使用记录；
+- 用户的个人身份信息。
+
+除非用户主动通过邮件、聊天、Issue、截图、日志、压缩包或其他方式发送给开发者，否则开发者不会接触这些内容。
+
+## 诊断与遥测
+
+Coastline 目前不包含由开发者运营的分析、遥测、用户追踪、崩溃报告或远程日志服务。
+
+如果用户主动提交 bug 反馈、截图、日志或项目文件，用户应自行确认其中是否包含敏感信息。
+
+## 敏感内容
+
+用户不应处理自己无权处理的内容。
+
+除非用户理解并接受所选模型服务商的规则和风险，否则不应将高度敏感、机密、私人、违法或受监管的内容提交给第三方模型 API。
+
+## 用户责任
+
+用户需要自行备份写作项目和导出文件。
+
+Coastline 目前是早期 beta 版本，可能包含 bug。
+
+用户需要自行决定是否信任本软件、是否配置第三方模型 API，以及是否将特定文本提交给第三方模型服务。
+
+## 联系方式
+
+如有问题、反馈或与本 release 相关的移除请求，请通过官方 GitHub 仓库联系开发者。
+
+---
+
+# Privacy Policy
+
+Last updated: 2026-05-31
+
+This privacy policy applies to Coastline, a local-first desktop writing system.
+
+## Core statement
+
+Coastline is local-first software.
+
+In the current version, user data is processed only in the following places:
+
+1. the user's own local device;
+2. the third-party model API provider configured by the user.
+
+The current version mainly supports `deepseek-v4-pro`, and related API requests are made with the DeepSeek API key configured by the user.
+
+The developer does not operate any cloud server for Coastline, whether inside or outside mainland China.
+
+The developer does not provide any Coastline cloud account system, whether inside or outside mainland China.
+
+Through the Coastline application itself, the developer cannot actively access the user's project content, chapter text, API key, exported files, or other private information.
+
+## Local-first storage
+
+Coastline stores writing projects on the user's local machine.
+
+Project files, chapters, timelines, fact records, issue records, exported files, and related settings are stored locally by default, unless the user manually moves, uploads, backs up, or shares them.
+
+## No Coastline cloud account
+
+Coastline does not currently provide a cloud account system.
+
+Users do not need to register a Coastline account or log in to any server provided by the developer.
+
+The developer does not operate a Coastline cloud server for storing user projects, chapters, drafts, exported files, API keys, or usage records.
+
+## Model API requests
+
+Coastline uses third-party model APIs only when the user configures an API key and runs AI analysis.
+
+When AI analysis is triggered, relevant project text may be sent to the third-party model API configured by the user. This may include chapter content, project background, timeline information, fact records, issue records, and related writing context.
+
+The handling of such data is governed by the privacy policy, terms of service, and data processing rules of the third-party model provider selected and configured by the user.
+
+The Coastline developer does not control how third-party model providers process data and cannot make privacy commitments on behalf of those providers.
+
+## API keys
+
+API keys are configured by the user and stored on the user's local machine.
+
+The developer does not actively collect, upload, view, or store user API keys.
+
+Users are responsible for keeping their API keys secure, monitoring API usage, and paying any API costs charged by their chosen model provider.
+
+## Information the developer cannot actively access
+
+In the current version design, the developer cannot actively access the following information through the Coastline application itself:
+
+- user project files;
+- chapter text;
+- timelines, fact records, and issue records;
+- exported files;
+- configured API keys;
+- local file paths;
+- usage records;
+- personal identity information.
+
+Unless the user voluntarily sends such information to the developer through email, chat, Issues, screenshots, logs, archives, or other channels, the developer does not have access to it.
+
+## Diagnostics and telemetry
+
+Coastline does not currently include analytics, telemetry, user tracking, crash reporting, or remote logging services operated by the developer.
+
+If users voluntarily submit bug reports, screenshots, logs, or project files, they should check whether those materials contain sensitive information.
+
+## Sensitive content
+
+Users should not process content that they do not have the right to process.
+
+Users should not submit highly sensitive, confidential, private, illegal, or regulated content to third-party model APIs unless they understand and accept the rules and risks of the selected provider.
+
+## User responsibility
+
+Users are responsible for backing up their writing projects and exported files.
+
+Coastline is provided as an early beta release and may contain bugs.
+
+Users are responsible for deciding whether to trust this software, whether to configure a third-party model API, and whether to submit specific text to third-party model services.
+
+## Contact
+
+For questions, feedback, or removal requests related to this release, please contact the developer through the official GitHub repository.

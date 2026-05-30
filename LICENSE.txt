@@ -1,0 +1,57 @@
+Coastline 专有软件许可
+
+版权所有 (c) 2026 Albert Yang。保留所有权利。
+
+Coastline 是专有、闭源、仅发布二进制安装包的软件。
+
+源码不公开。公开发布二进制安装包并不意味着授予任何开源许可或源码许可。
+
+作者允许用户下载并使用 Coastline 的官方二进制版本，用于个人、非商业的写作和试用目的。
+
+未经作者事先书面许可，用户不得：
+
+- 复制或再分发本软件；
+- 修改、改编、翻译本软件，或基于本软件创建衍生作品；
+- 出售、出租、转授权本软件，或将本软件用于商业牟利；
+- 逆向工程、反编译、反汇编，或试图提取源码；
+- 重新打包本软件，或分发修改后的安装包；
+- 删除或更改版权、许可或署名信息；
+- 使用本软件从事违法、侵权、恶意或破坏性活动。
+
+本软件按“现状”提供，不提供任何明示或默示担保。
+
+作者不保证本软件完全无错误、不中断、适合特定用途，或一定满足用户需求。
+
+本软件可以免费提供给个人用户试用，但免费使用并不意味着本软件是开源软件，也不意味着用户获得复制、修改、再分发或商业使用的权利。
+
+作者不对数据丢失、服务中断、API 费用、第三方模型输出、文件损坏、导出失败，或因使用本软件产生的任何损失承担责任。
+
+---
+
+Coastline Proprietary Software License
+
+Copyright (c) 2026 Albert Yang. All rights reserved.
+
+Coastline is proprietary, closed-source, binary-only software.
+
+The source code is not publicly available. Public access to a binary release does not grant any open-source license or source code license.
+
+Permission is granted to download and use the official binary release of Coastline for personal, non-commercial writing and evaluation purposes.
+
+Without prior written permission from the author, you may not:
+
+- copy or redistribute the software;
+- modify, adapt, translate, or create derivative works from the software;
+- sell, rent, lease, sublicense, or commercially exploit the software;
+- reverse engineer, decompile, disassemble, or attempt to extract the source code;
+- repackage the software or distribute modified installers;
+- remove or alter copyright, license, or attribution notices;
+- use the software for illegal, infringing, malicious, or destructive activities.
+
+This software is provided "as is", without warranty of any kind, express or implied.
+
+The author does not guarantee that the software will be error-free, uninterrupted, fit for a particular purpose, or meet users' requirements.
+
+Free personal use does not mean that the software is open source, nor does it grant permission to copy, modify, redistribute, or commercially use the software.
+
+The author is not responsible for data loss, service interruptions, API costs, third-party model outputs, file corruption, failed exports, or any damages arising from the use of this software.
