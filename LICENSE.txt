@@ -1,6 +1,6 @@
 Coastline 专有软件许可
 
-版权所有 (c) 2026 Albert Yang。保留所有权利。
+版权所有 © 2026 Albert Yang。保留所有权利。
 
 Coastline 是专有、闭源、仅发布二进制安装包的软件。
 
@@ -30,7 +30,7 @@ Coastline 是专有、闭源、仅发布二进制安装包的软件。
 
 Coastline Proprietary Software License
 
-Copyright (c) 2026 Albert Yang. All rights reserved.
+Copyright © 2026 Albert Yang. All rights reserved.
 
 Coastline is proprietary, closed-source, binary-only software.
 
