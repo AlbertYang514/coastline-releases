@@ -146,6 +146,12 @@ Windows 版目前没有代码签名。
 - 不要处理自己无权处理的文本。
 - 不要将高度敏感、机密、私人、违法或受监管的内容提交给第三方模型 API，除非你理解并接受相关风险。
 
+## Issues 与公开反馈
+
+Issues 是公开的。请不要在 Issues 中发布 API key、私人写作项目、敏感日志、个人信息，或你无权分享的受版权保护文本。
+
+包含密钥、敏感信息、攻击性内容、垃圾信息或无关内容的 issue 可能会被编辑、关闭或删除。
+
 ## 文档
 
 - `PRIVACY.md`：隐私政策；
@@ -302,6 +308,12 @@ Only install Coastline if you downloaded it from the official release page and t
 - Back up project files regularly.
 - Do not process text that you do not have the right to process.
 - Do not submit highly sensitive, confidential, private, illegal, or regulated content to third-party model APIs unless you understand and accept the related risks.
+
+## Issues and public feedback
+
+Issues are public. Please do not post API keys, private writing projects, sensitive logs, personal data, or copyrighted text that you do not have the right to share.
+
+Issues containing secrets, sensitive data, abusive content, spam, or off-topic material may be edited, closed, or removed.
 
 ## Documents
 
