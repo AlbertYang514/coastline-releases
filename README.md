@@ -106,28 +106,21 @@ Coastline 当前是早期 beta 版本，可能存在 bug。
 
 Coastline 目前还没有进行 Apple 开发者签名和 notarization 公证。
 
-第一次打开 macOS 版时，系统可能提示：
+如果你从 GitHub 下载 macOS 版本，系统可能直接提示：
 
-- “Apple 无法检查其是否包含恶意软件”；
-- “应用已损坏，无法打开”；
-- “无法验证开发者”。
+“应用已损坏，无法打开”。
 
-这是当前 beta 版的已知情况。
+这通常是 macOS Gatekeeper 对未签名应用的拦截结果，不代表安装包一定真的损坏。
 
-推荐打开方式：
+如果你确认安装包来自官方 Release 页面，可以在终端运行：
 
-1. 将 `Coastline.app` 拖入“应用程序”文件夹。
-2. 打开 **系统设置 → 隐私与安全性**。
-3. 找到 Coastline 的拦截提示。
-4. 点击 **仍要打开 / Open Anyway**。
-5. 再次确认打开。
-
-如果系统仍提示“应用已损坏”，高级用户可以在终端运行：
-
-```bash
 xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
-```
+
+如果终端提示权限不足，可以改用：
+
+sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
+open "/Applications/Coastline.app"
 
 请只从官方 Release 页面下载安装包。若你不信任来源，请不要安装。
 
@@ -277,28 +270,21 @@ Please back up your writing projects, exported files, and important materials be
 
 Coastline is currently not code-signed or notarized.
 
-When opening the macOS app for the first time, macOS may show warnings such as:
+When downloaded from GitHub, macOS may report:
 
-- "Coastline" cannot be opened because Apple cannot check it for malicious software.
-- "Coastline" is damaged and can't be opened.
-- The developer cannot be verified.
+"Coastline" is damaged and can't be opened.
 
-This is expected for the current beta release.
+This is usually caused by macOS Gatekeeper blocking an unsigned app. It does not necessarily mean the installer is actually damaged.
 
-Recommended opening method:
+If you downloaded Coastline from the official release page and trust this release, you can remove the quarantine attribute manually:
 
-1. Move `Coastline.app` to the `Applications` folder.
-2. Open **System Settings → Privacy & Security**.
-3. Find the blocked Coastline message.
-4. Click **Open Anyway**.
-5. Confirm that you want to open the app.
-
-If macOS still reports that the app is damaged, advanced users may remove the quarantine attribute manually:
-
-```bash
 xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
-```
+
+If Terminal reports a permission error, try:
+
+sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
+open "/Applications/Coastline.app"
 
 Only install Coastline if you downloaded it from the official release page and trust the developer.
 
