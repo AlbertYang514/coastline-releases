@@ -114,13 +114,17 @@ Coastline 目前还没有进行 Apple 开发者签名和 notarization 公证。
 
 如果你确认安装包来自官方 Release 页面，可以在终端运行：
 
+```bash
 xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
+```
 
 如果终端提示权限不足，可以改用：
 
+```bash
 sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
+```
 
 请只从官方 Release 页面下载安装包。若你不信任来源，请不要安装。
 
@@ -278,13 +282,17 @@ This is usually caused by macOS Gatekeeper blocking an unsigned app. It does not
 
 If you downloaded Coastline from the official release page and trust this release, you can remove the quarantine attribute manually:
 
+```bash
 xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
+```
 
 If Terminal reports a permission error, try:
 
+```bash
 sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
+```
 
 Only install Coastline if you downloaded it from the official release page and trust the developer.
 
