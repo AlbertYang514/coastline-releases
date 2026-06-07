@@ -1,5 +1,62 @@
 # 更新日志
 
+## Coastline 1.3.0 Beta
+
+Coastline 1.3.0 Beta 是首次公开 beta 之后的稳定性与产品化整理版本。
+
+本版本重点改进真实写作流程中的可靠性，包括稿件导出、时间线审阅、事实核查、高风险批量暂停、人物别名处理、模型配置、启动恢复、前端资源刷新，以及 macOS / Windows 桌面发布打包。
+
+### 本版本重点
+
+- 大幅整理前端工作台，并拆分 workspace UI 组件。
+- 改进事实库页面布局与视觉层级。
+- 新增 Timeline v2 叙事分组与更清晰的故事时间提取。
+- 新增人物别名建议与合并审阅流程。
+- 新增高级 OpenAI-compatible 模型服务配置。
+- 改进 DOCX 与 PDF 稿件导出格式。
+- 修复 disabled facts 和 pass fact checks 错误影响风险检测的问题。
+- 修复高风险批量暂停后草稿章节被错误只读的问题。
+- 修复启动时恢复最后活动项目的问题。
+- 修复 release app 显示旧前端资源的问题。
+- 修复 macOS 窗口缩放时红绿灯位置重置的问题。
+- 改进 macOS DMG 布局与 Windows release 打包脚本。
+
+### 新增 / 改进
+
+- 新增 Timeline v2，支持按叙事 / 来源章节分组。
+- 新增 timeline 条目的显式故事时间属性。
+- 新增人物别名建议、接受 / 拒绝生命周期，以及前端别名面板。
+- 新增高级 OpenAI-compatible provider 配置。
+- 改进事实库页面布局与 macOS 顶栏布局。
+- 改进稿件导出的层级、段落间距、首行缩进和仅导出当前 active path 的行为。
+- 在重做后的工作台中，让重要章节操作控件和审阅切换更容易访问。
+- 改进 Windows release 打包与 Python 解析逻辑。
+
+### 修复
+
+- 修复高风险批量暂停后，草稿章节被错误设置为只读的问题。
+- 修复事实库命中被误判为高风险冲突的问题。
+- 修复已通过的 fact checks 被写入持久问题或高风险阻塞的问题。
+- 修复 disabled facts 仍继续影响动态风险检测的问题。
+- 修复章节分析后 narrative pacing 不更新的问题。
+- 修复应用有时打开第一个项目，而不是最后活动项目的问题。
+- 修复 DOCX 与 PDF 稿件导出格式问题。
+- 修复 release build 显示旧前端资源的问题。
+- 修复 malformed / legacy timeline 数据导致时间线页面不稳定的问题。
+- 修复 onboarding notice 持久化问题。
+- 修复 macOS 窗口缩放时红绿灯位置重置的问题。
+- 修复 Windows release PowerShell 脚本参数块错误。
+
+### 说明
+
+- Coastline 仍然是本地优先、闭源、仅发布二进制安装包的软件。
+- Coastline 不提供内置模型服务。
+- 模型分析功能需要用户自行配置第三方模型 API key。
+- macOS 与 Windows 构建目前均未签名。
+- 用户应定期备份写作项目。
+
+---
+
 ## Coastline 1.2.0 Beta
 
 第一个公开二进制 beta 版本。
@@ -46,6 +103,63 @@ Coastline 1.2.0 Beta 是 Coastline 的首次公开二进制发布版本，包含
 ---
 
 # Changelog
+
+## Coastline 1.3.0 Beta
+
+Coastline 1.3.0 Beta is a stability and product-polish release after the first public beta.
+
+This release improves real writing workflow reliability, including manuscript export, timeline review, fact checking, high-risk batch pauses, character alias handling, provider configuration, startup restoration, frontend asset freshness, and desktop release packaging.
+
+### Highlights
+
+- Major frontend overhaul and workspace component split.
+- Improved facts page layout and visual hierarchy.
+- Added Timeline v2 narrative grouping with clearer story-time extraction.
+- Added character alias suggestions and merge review workflow.
+- Added advanced OpenAI-compatible provider configuration.
+- Improved DOCX and PDF manuscript export formatting.
+- Fixed disabled facts and pass fact checks incorrectly affecting risk detection.
+- Fixed high-risk batch pause read-only behavior for draft chapters.
+- Fixed last active project restoration on startup.
+- Fixed release app stale frontend cache issues.
+- Fixed macOS traffic light behavior during live window resize.
+- Improved macOS DMG layout and Windows release packaging scripts.
+
+### Added / Improved
+
+- Added Timeline v2 with narrative/source-chapter grouping.
+- Added explicit story-time attributes for timeline entries.
+- Added character alias suggestions, accept/reject lifecycle, and frontend alias panel.
+- Added advanced OpenAI-compatible provider configuration.
+- Improved facts page layout and macOS topbar layout.
+- Improved manuscript export hierarchy, paragraph spacing, first-line indentation, and active-path-only export behavior.
+- Kept important chapter action controls and review toggles easier to access in the redesigned workspace.
+- Improved Windows release packaging and Python resolver behavior.
+
+### Fixed
+
+- Fixed draft chapters becoming incorrectly read-only after high-risk batch pauses.
+- Fixed fact-library hits being confused with high-risk conflicts.
+- Fixed passed fact checks becoming persistent issues or high-risk blockers.
+- Fixed disabled facts continuing to affect dynamic risk detection.
+- Fixed narrative pacing not updating after chapter analysis.
+- Fixed the app sometimes opening the first project instead of the last active project.
+- Fixed DOCX and PDF manuscript export formatting problems.
+- Fixed release builds showing stale frontend assets.
+- Fixed timeline page instability caused by malformed or legacy timeline data.
+- Fixed onboarding notice persistence.
+- Fixed macOS traffic lights resetting during window resize.
+- Fixed Windows release script parameter block errors.
+
+### Notes
+
+- Coastline remains local-first, closed-source, and binary-only.
+- Coastline does not provide a built-in model service.
+- Model-analysis features require a user-configured third-party model API key.
+- macOS and Windows builds are currently unsigned.
+- Users should back up writing projects regularly.
+
+---
 
 ## Coastline 1.2.0 Beta
 
