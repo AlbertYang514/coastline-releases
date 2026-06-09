@@ -20,8 +20,8 @@
           "arch": "arm64",
           "filename": "Coastline-1.3.2-macOS.dmg",
           "download_url": "https://github.com/AlbertYang514/coastline-releases/releases/download/v1.3.2/Coastline-1.3.2-macOS.dmg",
-          "sha256": "92533b125ee7c1ec39ecbc8336fea35595f6e8d979440e26dd80d08fea0ca283",
-          "size_bytes": 26145826
+          "sha256": "8fe5d4fd3f593da6b294b16f281e3f70bd6ae579758f728f720c260328bae6b2",
+          "size_bytes": 26043857
         },
         {
           "platform": "Windows",
