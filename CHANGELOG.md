@@ -1,5 +1,85 @@
 # 更新日志
 
+## Coastline 1.3.1 Beta
+
+Coastline 1.3.1 Beta 是 1.3.0 之后的发布修正版本，重点整理桌面应用图标、macOS / Windows 打包命名、发布文件结构、第三方开源组件声明，以及 Windows 后端端口行为。
+
+本版本不引入新的核心写作功能，主要用于让公开 beta 安装包更稳定、更清晰、更适合作为当前推荐下载版本。
+
+### 本版本重点
+
+- 更新 Coastline 应用图标。
+- 修复 macOS release 构建过程中图标源文件被旧资源覆盖的问题。
+- 修复 macOS DMG release 文件命名，使其与公开发布资产命名保持一致。
+- 确认 Windows 后端使用动态本地端口，避免固定占用 `8000`。
+- 整理 Windows x64 安装包输出命名。
+- 补充并随应用分发第三方开源组件版权声明。
+- 整理 release repository 的下载文件、版本索引和公开说明文档。
+
+### 修复 / 改进
+
+- 修复 macOS 打包流程中 `AppIcon.appiconset` 可能被旧图标重新生成覆盖的问题。
+- 修复 macOS DMG 默认输出为 `Coastline-1.3.1.dmg`，而不是公开发布所需 `Coastline-1.3.1-macOS.dmg` 的问题。
+- 改进 release asset 命名一致性：
+  - `Coastline-1.3.1-macOS.dmg`
+  - `Coastline-1.3.1-win-x64.exe`
+- 确认 Windows 端 `ncs-backend.exe` 启动后监听动态本地端口，而不是固定端口。
+- 更新应用图标资源，用于 macOS App、Windows App 与安装包显示。
+- 补充 `THIRD-PARTY-NOTICES.txt`，用于声明第三方开源组件版权信息。
+- 整理 release repository README 与 catalog 信息，方便用户下载和校验安装包。
+
+### 说明
+
+- Coastline 仍然是本地优先、闭源、仅发布二进制安装包的软件。
+- Coastline 不提供内置模型服务。
+- 模型分析功能需要用户自行配置第三方模型 API key。
+- macOS 与 Windows 构建目前均未签名。
+- 用户应定期备份写作项目。
+- 本版本主要是发布整理版本，不是功能大版本。
+
+---
+
+# Changelog
+
+## Coastline 1.3.1 Beta
+
+Coastline 1.3.1 Beta is a release-polish update after 1.3.0. It focuses on desktop app icons, macOS / Windows packaging names, release file structure, third-party open-source notices, and Windows backend port behavior.
+
+This release does not introduce major new writing features. Its purpose is to make the public beta installers cleaner, more stable, and more suitable as the current recommended download.
+
+### Highlights
+
+- Updated the Coastline app icon.
+- Fixed the macOS release build flow so the new icon source is not overwritten by old generated resources.
+- Fixed macOS DMG release naming to match the public release asset name.
+- Verified that the Windows backend uses a dynamic local port instead of fixed port `8000`.
+- Cleaned up Windows x64 installer output naming.
+- Added third-party open-source notices to the distributed application.
+- Organized release repository downloads, catalog metadata, and public documentation.
+
+### Fixed / Improved
+
+- Fixed an issue where the macOS packaging flow could regenerate `AppIcon.appiconset` from an outdated icon source.
+- Fixed macOS DMG output naming from `Coastline-1.3.1.dmg` to the public release name `Coastline-1.3.1-macOS.dmg`.
+- Improved release asset naming consistency:
+  - `Coastline-1.3.1-macOS.dmg`
+  - `Coastline-1.3.1-win-x64.exe`
+- Verified that `ncs-backend.exe` on Windows listens on a dynamic local port instead of a fixed port.
+- Updated application icon resources for macOS, Windows, and the installer.
+- Added `THIRD-PARTY-NOTICES.txt` for third-party open-source component notices.
+- Updated release repository README and catalog metadata for clearer downloads and checksum verification.
+
+### Notes
+
+- Coastline remains local-first, closed-source, and binary-only.
+- Coastline does not provide a built-in model service.
+- Model-analysis features require a user-configured third-party model API key.
+- macOS and Windows builds are currently unsigned.
+- Users should back up writing projects regularly.
+- This is primarily a release-polish update, not a major feature release.
+
+---
+
 ## Coastline 1.3.0 Beta
 
 Coastline 1.3.0 Beta 是首次公开 beta 之后的稳定性与产品化整理版本。

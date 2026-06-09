@@ -1,0 +1,99 @@
+Coastline Third-Party Open Source Notices
+=========================================
+
+This file records third-party open source components used by Coastline
+production builds. It is intended for release packages and repository records.
+
+Last reviewed: 2026-06-09
+
+Summary
+-------
+
+Reviewed production dependency sources:
+
+- Frontend npm dependency graph from frontend/package-lock.json.
+- Backend Python direct requirements from requirements.txt and installed package
+  metadata used by the current build environment.
+- Windows desktop shell package references from
+  windows/Coastline.Windows/Coastline.Windows.csproj.
+- macOS desktop shell uses Apple platform frameworks from the macOS SDK.
+
+No GPL, AGPL, LGPL, SSPL, BUSL, Commons Clause, or Non-Commercial license was
+identified in the reviewed production dependency records.
+
+Notable license families identified:
+
+- MIT
+- ISC
+- BSD-3-Clause
+- Apache-2.0
+- MPL-2.0 AND MIT
+- PSF-2.0
+- MIT-CMU
+- CC-BY-4.0
+
+Frontend
+--------
+
+Coastline's frontend is built with React, Vite, Rollup, Babel, esbuild,
+PostCSS, lucide-react, and related build/runtime packages. The npm lockfile
+currently records licenses in the MIT, ISC, BSD-3-Clause, Apache-2.0, and
+CC-BY-4.0 families.
+
+Key direct packages:
+
+- @vitejs/plugin-react - MIT
+- lucide-react - ISC
+- react - MIT
+- react-dom - MIT
+- vite - MIT
+
+Backend
+-------
+
+Coastline's backend uses FastAPI, Uvicorn, python-dotenv, OpenAI's Python SDK,
+Pydantic, ReportLab, and their runtime dependencies.
+
+Key direct packages:
+
+- fastapi - MIT
+- uvicorn - BSD-3-Clause
+- python-dotenv - BSD-3-Clause
+- openai - Apache-2.0
+- pydantic - MIT
+- reportlab - BSD-style ReportLab license
+
+Notable runtime dependencies observed in the current build environment include:
+
+- starlette - BSD-3-Clause
+- click - BSD-3-Clause
+- h11 - MIT
+- anyio - MIT
+- distro - Apache-2.0
+- httpx - BSD-3-Clause
+- httpcore - BSD-3-Clause
+- jiter - MIT
+- pydantic-core - MIT
+- sniffio - MIT OR Apache-2.0
+- tqdm - MPL-2.0 AND MIT
+- typing-extensions - PSF-2.0
+- typing-inspection - MIT
+- annotated-doc - MIT
+- charset-normalizer - MIT
+- pillow - MIT-CMU
+
+Desktop Shells And Packaging
+----------------------------
+
+- Microsoft.Web.WebView2 1.0.2957.106 is used by the Windows shell.
+- .NET 8 self-contained Windows releases include Microsoft .NET runtime
+  components under Microsoft's .NET license terms.
+- The macOS shell uses Apple AppKit/WebKit frameworks supplied by macOS.
+- Coastline release scripts package this notices file into macOS app resources
+  and Windows staging/installer output.
+
+Detailed Record
+---------------
+
+See THIRD-PARTY-LICENSES.json for the structured review record.
+
