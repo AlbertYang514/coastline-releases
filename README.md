@@ -8,15 +8,15 @@ https://usecoastline.com
 
 ## Download / 下载
 
-**Latest release / 最新版本：Coastline 1.3.1 Beta**
+**Latest release / 最新版本：Coastline 1.3.2 Beta**
 
 **GitHub Releases / 安装包下载：**  
-https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.3.1
+https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.3.2
 
 当前提供：
 
-- macOS：`Coastline-1.3.1-macOS.dmg`
-- Windows：`Coastline-1.3.1-win-x64.exe`
+- macOS：`Coastline-1.3.2-macOS.dmg`
+- Windows：`Coastline-1.3.2-win-x64.exe`
 
 安装包请从 GitHub Releases 下载。文件校验与版本索引：
 
@@ -110,7 +110,7 @@ Coastline 当前是早期 beta 版本，可能存在 bug。
 
 ## macOS 安装说明
 
-1. 下载 `Coastline-1.3.1-macOS.dmg`。
+1. 下载 `Coastline-1.3.2-macOS.dmg`。
 2. 打开 DMG 文件。
 3. 将 `Coastline.app` 拖入“应用程序”文件夹。
 4. 从"应用程序"中打开 Coastline。
@@ -143,7 +143,7 @@ sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 
 ## Windows 安装说明
 
-1. 下载 `Coastline-1.3.1-win-x64.exe`。
+1. 下载 `Coastline-1.3.2-win-x64.exe`。
 2. 运行安装包。
 3. 按安装向导完成安装。
 4. 从开始菜单或桌面快捷方式打开 Coastline。
@@ -197,14 +197,14 @@ Coastline is not an AI ghostwriter. It is designed to help writers keep control 
 
 Current release:
 
-- **Coastline 1.3.1 Beta**
+- **Coastline 1.3.2 Beta**
 - Official website: https://usecoastline.com
-- Download: https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.3.1
+- Download: https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.3.2
 
 Available builds:
 
-- macOS: `Coastline-1.3.1-macOS.dmg`
-- Windows: `Coastline-1.3.1-win-x64.exe`
+- macOS: `Coastline-1.3.2-macOS.dmg`
+- Windows: `Coastline-1.3.2-win-x64.exe`
 
 Coastline stores project files locally by default. It does not provide cloud sync, user accounts, or online storage.
 

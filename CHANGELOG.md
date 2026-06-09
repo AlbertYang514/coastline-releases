@@ -1,5 +1,24 @@
 # 更新日志
 
+## Coastline 1.3.2 Beta
+
+Coastline 1.3.2 Beta 是 1.3.1 之后的图标修正版本。
+
+本版本不引入新的核心写作功能，主要更新 Coastline 的 macOS 与 Windows 应用图标，使其更接近产品已有的视觉语言：文本结构、叙事边界与连续流动。
+
+### 本版本重点
+
+- 更新 macOS 应用图标。
+- 更新 Windows 应用图标。
+- 更新 macOS DMG 与 Windows 安装包版本为 1.3.2。
+- 保持 1.3.1 的功能行为不变。
+
+### 说明
+
+- 本版本是 icon-only patch。
+- macOS 与 Windows 构建目前仍未签名。
+- 如果 Windows 桌面或开始菜单仍显示旧图标，通常是 Windows 图标缓存问题，不影响安装包本身。
+
 ## Coastline 1.3.1 Beta
 
 Coastline 1.3.1 Beta 是 1.3.0 之后的发布修正版本，重点整理桌面应用图标、macOS / Windows 打包命名、发布文件结构、第三方开源组件声明，以及 Windows 后端端口行为。

@@ -1,13 +1,38 @@
 {
   "product": "Coastline",
   "description": "A local-first desktop writing system for long-form narrative projects.",
-  "current_version": "1.3.1",
-  "current_tag": "v1.3.1",
+  "current_version": "1.3.2",
+  "current_tag": "v1.3.2",
   "channel": "beta",
   "official_website": "https://usecoastline.com",
-  "release_url": "https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.3.1",
+  "release_url": "https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.3.2",
   "updated_at": "2026-06-10",
   "releases": [
+    {
+      "version": "1.3.2",
+      "tag": "v1.3.2",
+      "channel": "beta",
+      "date": "2026-06-10",
+      "notes": "Icon-only patch release. Updates the macOS and Windows app icon direction after 1.3.1. No functional changes.",
+      "files": [
+        {
+          "platform": "macOS",
+          "arch": "arm64",
+          "filename": "Coastline-1.3.2-macOS.dmg",
+          "download_url": "https://github.com/AlbertYang514/coastline-releases/releases/download/v1.3.2/Coastline-1.3.2-macOS.dmg",
+          "sha256": "92533b125ee7c1ec39ecbc8336fea35595f6e8d979440e26dd80d08fea0ca283",
+          "size_bytes": 26145826
+        },
+        {
+          "platform": "Windows",
+          "arch": "x64",
+          "filename": "Coastline-1.3.2-win-x64.exe",
+          "download_url": "https://github.com/AlbertYang514/coastline-releases/releases/download/v1.3.2/Coastline-1.3.2-win-x64.exe",
+          "sha256": "1f49a974ac83a8afc94a5d271560f51df57d4d2296dc7cdd6fa25de2305a703e",
+          "size_bytes": 72781186
+        }
+      ]
+    },
     {
       "version": "1.3.1",
       "tag": "v1.3.1",
