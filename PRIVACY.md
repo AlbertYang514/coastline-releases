@@ -1,6 +1,6 @@
 # 隐私政策
 
-最后更新：2026-05-31
+最后更新：2026-06-10
 
 本隐私政策适用于 Coastline，一个本地优先的长篇写作管理桌面工具。
 
@@ -13,7 +13,7 @@ Coastline 是本地优先软件。
 1. 用户自己的本地设备；
 2. 用户自行配置的第三方模型 API 服务商。
 
-当前版本主要支持的模型为 `deepseek-v4-pro`，相关 API 请求由用户自行配置的 DeepSeek API key 发起。
+当前版本支持 OpenAI-compatible provider 配置；用户可以根据自己的服务商填写 Base URL、API key 和模型名称。项目默认示例模型为 `deepseek-v4-pro`，相关 API 请求由用户自行配置的第三方模型 API key 发起。
 
 开发者不运营任何用于 Coastline 的云端服务器，不论该服务器位于中国大陆境内或境外。
 
@@ -106,7 +106,7 @@ Coastline 目前是早期 beta 版本，可能包含 bug。
 
 # Privacy Policy
 
-Last updated: 2026-05-31
+Last updated: 2026-06-10
 
 This privacy policy applies to Coastline, a local-first desktop writing system.
 
@@ -119,7 +119,7 @@ In the current version, user data is processed only in the following places:
 1. the user's own local device;
 2. the third-party model API provider configured by the user.
 
-The current version mainly supports `deepseek-v4-pro`, and related API requests are made with the DeepSeek API key configured by the user.
+The current version supports OpenAI-compatible provider configuration. Users may configure the Base URL, API key, and model name for their chosen provider. The default example model is `deepseek-v4-pro`, and related API requests are made with the third-party model API key configured by the user.
 
 The developer does not operate any cloud server for Coastline, whether inside or outside mainland China.
 
