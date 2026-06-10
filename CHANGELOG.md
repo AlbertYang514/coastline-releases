@@ -11,6 +11,7 @@ Coastline 1.4.0 Beta 是一次 Local Intelligence 功能增强与稳定性更新
 - 扩展语言与行文质量检查，用于识别非事实类的 prose quality / narrative quality 问题。
 - 新增 compact timeline reconcile，减少旧时间线上下文对模型输入的压力。
 - 新增时间线相关上下文的轻量检索评分，优先回传更相关的历史事件。
+- 优化分析上下文组织方式，通过章节缓存、compact timeline reconcile 与相关事件检索减少不必要的历史内容回传，降低长篇项目重复分析时的 token 消耗。
 - 新增用户流程模拟 harness：`scripts/simulate_user_flow.py`。
 - 扩展 release sanity check，覆盖缓存、检索、质量检查和识别规则兼容。
 

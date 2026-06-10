@@ -13,7 +13,7 @@
       "tag": "v1.4.0",
       "channel": "beta",
       "date": "2026-06-10",
-      "notes": "Local Intelligence update with analysis presets, max-token controls, analysis cache, recognition rules compatibility, language quality checks, compact timeline context, safer local reconciliation, and refreshed macOS/Windows installers.",
+      "notes": "Local Intelligence update with analysis presets, max-token controls, analysis cache, recognition rules compatibility, language quality checks, compact timeline context, safer local reconciliation, and refreshed macOS/Windows installers.优化分析上下文组织方式，减少不必要的历史内容回传，降低长篇项目重复分析时的 token 消耗。",
       "files": [
         {
           "platform": "macOS",
