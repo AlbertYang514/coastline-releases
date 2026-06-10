@@ -1,13 +1,38 @@
 {
   "product": "Coastline",
   "description": "A local-first desktop writing system for long-form narrative projects.",
-  "current_version": "1.3.2",
-  "current_tag": "v1.3.2",
+  "current_version": "1.4.0",
+  "current_tag": "v1.4.0",
   "channel": "beta",
   "official_website": "https://usecoastline.com",
-  "release_url": "https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.3.2",
+  "release_url": "https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.4.0",
   "updated_at": "2026-06-10",
   "releases": [
+    {
+      "version": "1.4.0",
+      "tag": "v1.4.0",
+      "channel": "beta",
+      "date": "2026-06-10",
+      "notes": "Local Intelligence update with analysis presets, max-token controls, analysis cache, recognition rules compatibility, language quality checks, compact timeline context, safer local reconciliation, and refreshed macOS/Windows installers.",
+      "files": [
+        {
+          "platform": "macOS",
+          "arch": "arm64",
+          "filename": "Coastline-1.4.0-macOS.dmg",
+          "download_url": "https://github.com/AlbertYang514/coastline-releases/releases/download/v1.4.0/Coastline-1.4.0-macOS.dmg",
+          "sha256": "8d1b703f938f684e5fcee6c427cbf5f5265bef45b72f4d2cacef4e5d7cac4c23",
+          "size_bytes": 26076810
+        },
+        {
+          "platform": "Windows",
+          "arch": "x64",
+          "filename": "CoastlineSetup-1.4.0-win-x64.exe",
+          "download_url": "https://github.com/AlbertYang514/coastline-releases/releases/download/v1.4.0/CoastlineSetup-1.4.0-win-x64.exe",
+          "sha256": "54113161d413eac9d43388995fc78c27037d8d93dbe6ad5a03d87f601073cc43",
+          "size_bytes": 72820449
+        }
+      ]
+    },
     {
       "version": "1.3.2",
       "tag": "v1.3.2",

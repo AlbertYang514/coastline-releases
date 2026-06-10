@@ -1,3 +1,38 @@
+## Coastline 1.4.0 Beta
+
+Coastline 1.4.0 Beta 是一次 Local Intelligence 功能增强与稳定性更新。它重点改进长篇项目分析、质量问题识别、识别规则兼容、token 控制、时间线上下文管理，以及本地分析结果写入安全。
+
+### 新增 / 增强
+
+- 新增 AI 分析状态提示，让项目初始化、章节分析和批量处理过程更清楚。
+- 新增分析预设与 max token 控制，方便在速度、成本和分析深度之间切换。
+- 新增章节分析缓存，减少重复分析相同章节时的不必要模型调用。
+- 新增 Recognition Rules / 识别规则兼容层，使识别规则可以更稳定地参与当前分析流程。
+- 扩展语言与行文质量检查，用于识别非事实类的 prose quality / narrative quality 问题。
+- 新增 compact timeline reconcile，减少旧时间线上下文对模型输入的压力。
+- 新增时间线相关上下文的轻量检索评分，优先回传更相关的历史事件。
+- 新增用户流程模拟 harness：`scripts/simulate_user_flow.py`。
+- 扩展 release sanity check，覆盖缓存、检索、质量检查和识别规则兼容。
+
+### 修复 / 加固
+
+- 改进分析文本质量处理，减少模型输出格式或文本质量异常带来的后续问题。
+- 强化本地分析结果合并逻辑，使事实、时间线、人物状态和 issue 的写入边界更保守。
+- 收紧 issue 解决流程，避免自动破坏性关闭或删除问题记录。
+- 修复 Windows installer 产物命名检查不一致的问题。
+- 统一 1.4.0 macOS / Windows 安装包命名和校验信息。
+
+### 发布产物
+
+- macOS: `Coastline-1.4.0-macOS.dmg`
+- Windows: `CoastlineSetup-1.4.0-win-x64.exe`
+
+### SHA256
+
+- macOS DMG: `8d1b703f938f684e5fcee6c427cbf5f5265bef45b72f4d2cacef4e5d7cac4c23`
+- Windows installer: `54113161d413eac9d43388995fc78c27037d8d93dbe6ad5a03d87f601073cc43`
+
+
 # 更新日志
 
 ## Coastline 1.3.2 Beta
