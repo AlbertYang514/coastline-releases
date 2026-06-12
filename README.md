@@ -365,7 +365,7 @@ open "/Applications/Coastline.app"
 If macOS still reports that the app is damaged, advanced users may remove the quarantine attribute manually:
 
 ```bash
-xattr -dr com.apple.quarantine "/Applications/Coastline.app"
+sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
 ```
 
