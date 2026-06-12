@@ -1,3 +1,38 @@
+## Coastline 2.0.0
+
+Coastline 2.0.0 是一次重大版本更新。Coastline 是独立开发的桌面应用（independently developed desktop application），正在积极演进中。
+
+请备份重要写作项目和导出文件。
+
+### 新增功能
+
+- **Streaming 章节分析**：实时 streaming 章节分析，渐进式返回分析结果；支持多章并行批量处理。
+- **Bundled 本地 ONNX Reranker**：本地 cross-encoder reranker artifact（`bundled_models/reranker-v8/`），使用 ONNX Runtime 在用户设备本地运行。在用户触发 LLM 分析前，对本地 SQLite 索引召回的候选 chunks 进行相关度重排。基于上游 base model `hfl/rbt3`（哈工大讯飞联合实验室，Apache-2.0）fine-tuned + ONNX 转换。不生成正文，不直接写入项目状态，不绕过用户确认。
+- **本地 SQLite 索引与分析缓存**：可重建的派生索引/缓存，用于加速章节文本检索和 LLM 分析缓存，减少重复分析时的 token 消耗。项目文件仍是 source of truth。
+- **卷分组（Volume Grouping）**：长篇项目可按卷组织章节，方便结构化管理。
+- **项目回收站 / 恢复 / 永久删除**：软删除章节进入回收站，支持恢复；支持永久删除。
+- **项目归档管理**：支持将已确认、不再修改的章节归档。
+- **更新检查**：App 内 guided update check（检查本地元数据，不上报遥测）。
+- **通用模型 Provider 环境变量**：`COASTLINE_MODEL` / `COASTLINE_BASE_URL` / `COASTLINE_API_KEY` 环境变量支持通用 model provider 配置。
+- **Windows 启动加载优化**：Windows 壳启动时 loading 体验优化。
+
+### 修复 / 加固
+
+- **Notice bar 修复**：修正 release 版本 notice bar 显示问题。
+- **隐藏 structured streaming 原始输出**：前端不再展示原始 structured streaming 输出。
+- **Release 稳定化**：多项 release build 稳定性修复。
+
+### 打包
+
+- **Bundled ONNX CPU reranker runtime**：打包 onnxruntime / tokenizers / numpy，Windows backend bundle 硬性禁止 torch / transformers 等重依赖。
+- **完整 legal/docs**：新增 LICENSE.txt、EULA.txt、PRIVACY.md、CHANGELOG.md，更新 THIRD-PARTY-NOTICES.txt / THIRD-PARTY-LICENSES.json，macOS / Windows 打包脚本包含完整文档复制。
+
+### 发布产物
+
+- macOS: `Coastline-2.0.0-macOS.dmg`
+- Windows: `CoastlineSetup-2.0.0-win-x64.exe`
+
+
 ## Coastline 1.4.0 Beta
 
 Coastline 1.4.0 Beta 是一次 Local Intelligence 功能增强与稳定性更新。它重点改进长篇项目分析、质量问题识别、识别规则兼容、token 控制、时间线上下文管理，以及本地分析结果写入安全。

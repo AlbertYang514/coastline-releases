@@ -4,7 +4,7 @@ Coastline Third-Party Open Source Notices
 This file records third-party open source components used by Coastline
 production builds. It is intended for release packages and repository records.
 
-Last reviewed: 2026-06-09
+Last reviewed: 2026-06-13
 
 Summary
 -------
@@ -62,6 +62,9 @@ Key direct packages:
 - openai - Apache-2.0
 - pydantic - MIT
 - reportlab - BSD-style ReportLab license
+- onnxruntime - MIT
+- tokenizers - Apache-2.0
+- numpy - BSD-3-Clause
 
 Notable runtime dependencies observed in the current build environment include:
 
@@ -81,6 +84,9 @@ Notable runtime dependencies observed in the current build environment include:
 - annotated-doc - MIT
 - charset-normalizer - MIT
 - pillow - MIT-CMU
+- onnxruntime - MIT
+- tokenizers - Apache-2.0
+- numpy - BSD-3-Clause
 
 Desktop Shells And Packaging
 ----------------------------
@@ -91,6 +97,25 @@ Desktop Shells And Packaging
 - The macOS shell uses Apple AppKit/WebKit frameworks supplied by macOS.
 - Coastline release scripts package this notices file into macOS app resources
   and Windows staging/installer output.
+
+Bundled ONNX Reranker Artifact
+-----------------------------
+
+Coastline includes a local ONNX reranker artifact (bundled_models/reranker-v8/)
+used only for local candidate-context ranking before user-triggered LLM
+analysis. It does not generate text and does not directly write project state.
+
+The bundled artifact is a fine-tuned, ONNX-converted derived model based on:
+
+  Base model:    hfl/rbt3 (Chinese RoBERTa-wwm-ext-small / RBT3)
+  Description:   re-trained 3-layer RoBERTa-wwm-ext model
+  Publisher:     Joint Laboratory of HIT and iFLYTEK Research (HFL)
+  Source:        https://huggingface.co/hfl/rbt3
+  License:       Apache-2.0
+
+The ONNX runtime dependency (onnxruntime) and tokenizer library (tokenizers)
+are also bundled with the application. See the Backend section above for their
+licenses.
 
 Detailed Record
 ---------------

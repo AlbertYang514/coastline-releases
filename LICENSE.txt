@@ -26,6 +26,31 @@ Coastline 是专有、闭源、仅发布二进制安装包的软件。
 
 作者不对数据丢失、服务中断、API 费用、第三方模型输出、文件损坏、导出失败，或因使用本软件产生的任何损失承担责任。
 
+第三方开源组件
+
+Coastline 二进制安装包可能包含第三方开源组件、运行时库、模型底座权重、分词器，以及其他依赖项（统称“第三方组件”）。
+
+各第三方组件按其自身适用的许可证条款分别授权。
+
+第三方开源许可证仅适用于其所覆盖的具体组件，不授予 Coastline 源码许可，也不改变 Coastline 主程序、安装包、自有代码和自有 bundled artifact 的专有授权。
+
+Bundled ONNX Reranker Artifact
+
+Coastline 安装包包含一个本地 ONNX reranker artifact（bundled_models/reranker-v8/），作为 Coastline 专有二进制发行包的一部分提供。
+
+该 artifact 是下游 fine-tuned + ONNX 转换的派生模型，基于上游 base model：
+
+  hfl/rbt3（Chinese RoBERTa-wwm-ext-small / RBT3）
+  发布方：Joint Laboratory of HIT and iFLYTEK Research (HFL)
+  上游许可：Apache-2.0
+  上游来源：https://huggingface.co/hfl/rbt3
+
+上游 base model hfl/rbt3 本身按 Apache-2.0 授权，其依法授予用户的权利不受本 License 限制。
+
+Coastline fine-tuned bundled ONNX reranker artifact 是 Coastline 专有二进制发行包的一部分。用户不得抽取、单独分发、重新打包、托管，或商业复用该 bundled artifact，除非适用第三方许可证明确要求允许。
+
+第三方声明全文见安装包内 THIRD-PARTY-NOTICES.txt 和 THIRD-PARTY-LICENSES.json。
+
 ---
 
 Coastline Proprietary Software License
@@ -55,3 +80,28 @@ The author does not guarantee that the software will be error-free, uninterrupte
 Free personal use does not mean that the software is open source, nor does it grant permission to copy, modify, redistribute, host, resell, or provide the software as a commercial service.
 
 The author is not responsible for data loss, service interruptions, API costs, third-party model outputs, file corruption, failed exports, or any damages arising from the use of this software.
+
+Third-Party Open Source Components
+
+Coastline binary releases may include third-party open source components, runtime libraries, model base weights, tokenizers, and other dependencies ("Third-Party Components").
+
+Each Third-Party Component is licensed under its own applicable license terms.
+
+Third-party open source licenses apply only to the specific component they cover. They do not grant any license to the Coastline source code, nor do they change the proprietary license of the Coastline application, installer packages, proprietary code, or proprietary bundled artifacts.
+
+Bundled ONNX Reranker Artifact
+
+The Coastline installer includes a local ONNX reranker artifact (bundled_models/reranker-v8/), provided as part of the Coastline proprietary binary distribution.
+
+This artifact is a downstream fine-tuned and ONNX-converted derived model, based on the upstream base model:
+
+  hfl/rbt3 (Chinese RoBERTa-wwm-ext-small / RBT3)
+  Publisher: Joint Laboratory of HIT and iFLYTEK Research (HFL)
+  Upstream license: Apache-2.0
+  Upstream source: https://huggingface.co/hfl/rbt3
+
+The upstream base model hfl/rbt3 is itself licensed under Apache-2.0; this License does not restrict any rights that the Apache-2.0 license grants to recipients of hfl/rbt3.
+
+The Coastline fine-tuned bundled ONNX reranker artifact is part of the Coastline proprietary binary distribution. You may not extract, separately distribute, repackage, host, or commercially exploit this bundled artifact, except as expressly required by applicable third-party license terms.
+
+See THIRD-PARTY-NOTICES.txt and THIRD-PARTY-LICENSES.json included with the Software for full third-party attribution.

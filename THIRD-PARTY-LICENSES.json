@@ -1,0 +1,134 @@
+{
+  "name": "Coastline third-party license review",
+  "last_reviewed": "2026-06-13",
+  "sources_reviewed": [
+    "frontend/package-lock.json",
+    "frontend/package.json",
+    "requirements.txt",
+    "installed Python package metadata in the current build environment",
+    "windows/Coastline.Windows/Coastline.Windows.csproj"
+  ],
+  "release_notice_file": "THIRD-PARTY-NOTICES.txt",
+  "audit_summary": {
+    "unexpected_strong_copyleft_found": false,
+    "reviewed_for": [
+      "GPL",
+      "AGPL",
+      "LGPL",
+      "SSPL",
+      "BUSL",
+      "Commons Clause",
+      "Non-Commercial"
+    ],
+    "license_families_found": [
+      "MIT",
+      "ISC",
+      "BSD-3-Clause",
+      "Apache-2.0",
+      "MPL-2.0 AND MIT",
+      "PSF-2.0",
+      "MIT-CMU",
+      "CC-BY-4.0"
+    ],
+    "notes": [
+      "Python requirements are currently unpinned; versions in this file reflect the current build environment metadata.",
+      "Frontend package versions are taken from frontend/package-lock.json.",
+      "This is a release compliance record, not legal advice."
+    ]
+  },
+  "frontend": {
+    "direct_dependencies": [
+      { "name": "@vitejs/plugin-react", "version": "4.7.0", "license": "MIT" },
+      { "name": "lucide-react", "version": "1.17.0", "license": "ISC" },
+      { "name": "react", "version": "19.2.6", "license": "MIT" },
+      { "name": "react-dom", "version": "19.2.6", "license": "MIT" },
+      { "name": "vite", "version": "6.4.2", "license": "MIT" }
+    ],
+    "transitive_license_families": [
+      "MIT",
+      "ISC",
+      "BSD-3-Clause",
+      "Apache-2.0",
+      "CC-BY-4.0"
+    ],
+    "notable_transitive_dependencies": [
+      { "name": "rollup", "version": "4.60.4", "license": "MIT" },
+      { "name": "esbuild", "version": "0.25.12", "license": "MIT" },
+      { "name": "postcss", "version": "8.5.15", "license": "MIT" },
+      { "name": "caniuse-lite", "version": "1.0.30001793", "license": "CC-BY-4.0" },
+      { "name": "source-map-js", "version": "1.2.1", "license": "BSD-3-Clause" }
+    ]
+  },
+  "backend_python": {
+    "direct_requirements": [
+      { "name": "fastapi", "version_observed": "0.136.3", "license": "MIT" },
+      { "name": "uvicorn", "version_observed": "0.48.0", "license": "BSD-3-Clause" },
+      { "name": "python-dotenv", "version_observed": "1.2.2", "license": "BSD-3-Clause" },
+      { "name": "openai", "version_observed": "2.38.0", "license": "Apache-2.0" },
+      { "name": "pydantic", "version_observed": "2.13.4", "license": "MIT" },
+      { "name": "reportlab", "version_observed": "4.5.1", "license": "BSD-style ReportLab license" }
+    ],
+    "reranker_runtime_requirements": [
+      { "name": "onnxruntime", "version_observed": "1.26.0", "license": "MIT" },
+      { "name": "tokenizers", "version_observed": "0.23.1", "license": "Apache-2.0" },
+      { "name": "numpy", "version_observed": "2.4.6", "license": "BSD-3-Clause" }
+    ],
+    "notable_runtime_dependencies_observed": [
+      { "name": "starlette", "version_observed": "1.2.0", "license": "BSD-3-Clause" },
+      { "name": "click", "version_observed": "8.4.1", "license": "BSD-3-Clause" },
+      { "name": "h11", "version_observed": "0.16.0", "license": "MIT" },
+      { "name": "anyio", "version_observed": "4.13.0", "license": "MIT" },
+      { "name": "distro", "version_observed": "1.9.0", "license": "Apache-2.0" },
+      { "name": "httpx", "version_observed": "0.28.1", "license": "BSD-3-Clause" },
+      { "name": "httpcore", "version_observed": "1.0.9", "license": "BSD-3-Clause" },
+      { "name": "jiter", "version_observed": "0.15.0", "license": "MIT" },
+      { "name": "pydantic-core", "version_observed": "2.46.4", "license": "MIT" },
+      { "name": "sniffio", "version_observed": "1.3.1", "license": "MIT OR Apache-2.0" },
+      { "name": "tqdm", "version_observed": "4.67.3", "license": "MPL-2.0 AND MIT" },
+      { "name": "typing-extensions", "version_observed": "4.15.0", "license": "PSF-2.0" },
+      { "name": "typing-inspection", "version_observed": "0.4.2", "license": "MIT" },
+      { "name": "annotated-doc", "version_observed": "0.0.4", "license": "MIT" },
+      { "name": "charset-normalizer", "version_observed": "3.4.7", "license": "MIT" },
+      { "name": "pillow", "version_observed": "12.2.0", "license": "MIT-CMU" },
+      { "name": "onnxruntime", "version_observed": "1.26.0", "license": "MIT" },
+      { "name": "tokenizers", "version_observed": "0.23.1", "license": "Apache-2.0" },
+      { "name": "numpy", "version_observed": "2.4.6", "license": "BSD-3-Clause" }
+    ]
+  },
+  "windows_shell": {
+    "package_references": [
+      { "name": "Microsoft.Web.WebView2", "version": "1.0.2957.106", "license": "Microsoft WebView2 NuGet package license terms" }
+    ],
+    "runtime_notes": [
+      ".NET 8 self-contained Windows releases include Microsoft .NET runtime components under Microsoft's .NET license terms."
+    ]
+  },
+  "macos_shell": {
+    "frameworks": [
+      "AppKit",
+      "WebKit"
+    ],
+    "notes": [
+      "Apple platform frameworks are supplied by macOS and the macOS SDK."
+    ]
+  },
+  "bundled_reranker_artifact": {
+    "artifact_id": "reranker-v8",
+    "task": "cross_encoder_regression",
+    "runtime": "onnxruntime-cpu",
+    "base_model": {
+      "name": "hfl/rbt3",
+      "full_name": "Chinese RoBERTa-wwm-ext-small (RBT3)",
+      "publisher": "Joint Laboratory of HIT and iFLYTEK Research (HFL)",
+      "source": "https://huggingface.co/hfl/rbt3",
+      "license": "Apache-2.0",
+      "architecture": "3-layer RoBERTa-wwm-ext"
+    },
+    "notes": [
+      "The bundled ONNX artifact is a fine-tuned, ONNX-converted derived model for Coastline local candidate-context reranking.",
+      "It does not generate text and does not directly write project state.",
+      "The ONNX runtime (onnxruntime) and tokenizer library (tokenizers) are bundled separately. See backend_python.notable_runtime_dependencies_observed.",
+      "The fine-tuned weights and ONNX conversion are proprietary to Coastline."
+    ]
+  }
+}

@@ -1,13 +1,42 @@
 {
   "product": "Coastline",
   "description": "A local-first desktop writing system for long-form narrative projects.",
-  "current_version": "1.4.0",
+  "current_version": "2.0.0",
   "current_tag": "v1.4.0",
-  "channel": "beta",
+  "channel": "stable",
   "official_website": "https://usecoastline.com",
   "release_url": "https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.4.0",
   "updated_at": "2026-06-10",
   "releases": [
+    {
+      "version": "2.0.0",
+      "channel": "stable",
+      "date": "2026-06-13",
+      "title": "Coastline 2.0.0",
+      "summary": "Major release with streaming analysis, bundled local ONNX reranker, local SQLite index/cache, project archive/trash workflows, guided update check, and finalized legal/third-party notices.",
+      "assets": {
+        "macos": {
+          "filename": "Coastline-2.0.0-macOS.dmg",
+          "path": "releases/2.0.0/Coastline-2.0.0-macOS.dmg",
+          "sha256": "1b39fafe63f1aba4092d90d163030870da6c2369952e01e8d6ab0bf5b859e336",
+          "size_bytes": 198968697
+        },
+        "windows": {
+          "filename": "CoastlineSetup-2.0.0-win-x64.exe",
+          "path": "releases/2.0.0/CoastlineSetup-2.0.0-win-x64.exe",
+          "sha256": "4d4a3dc5abcf98486c3cbae06afa837b743540c030508ec10eb3ef1eef11787d",
+          "size_bytes": 246130830
+        }
+      },
+      "notes": [
+        "Streaming chapter analysis and batch analysis flow.",
+        "Bundled local ONNX reranker for context ranking.",
+        "Local SQLite index/cache layer for faster project context access.",
+        "Project archive management, trash restore, and permanent delete.",
+        "Guided update check.",
+        "Packaged LICENSE, EULA, PRIVACY, CHANGELOG, and third-party notices."
+      ]
+    },
     {
       "version": "1.4.0",
       "tag": "v1.4.0",
@@ -83,5 +112,34 @@
         }
       ]
     }
-  ]
+  ],
+  "latest": {
+    "version": "2.0.0",
+    "channel": "stable",
+    "date": "2026-06-13",
+    "title": "Coastline 2.0.0",
+    "summary": "Major release with streaming analysis, bundled local ONNX reranker, local SQLite index/cache, project archive/trash workflows, guided update check, and finalized legal/third-party notices.",
+    "assets": {
+      "macos": {
+        "filename": "Coastline-2.0.0-macOS.dmg",
+        "path": "releases/2.0.0/Coastline-2.0.0-macOS.dmg",
+        "sha256": "1b39fafe63f1aba4092d90d163030870da6c2369952e01e8d6ab0bf5b859e336",
+        "size_bytes": 198968697
+      },
+      "windows": {
+        "filename": "CoastlineSetup-2.0.0-win-x64.exe",
+        "path": "releases/2.0.0/CoastlineSetup-2.0.0-win-x64.exe",
+        "sha256": "4d4a3dc5abcf98486c3cbae06afa837b743540c030508ec10eb3ef1eef11787d",
+        "size_bytes": 246130830
+      }
+    },
+    "notes": [
+      "Streaming chapter analysis and batch analysis flow.",
+      "Bundled local ONNX reranker for context ranking.",
+      "Local SQLite index/cache layer for faster project context access.",
+      "Project archive management, trash restore, and permanent delete.",
+      "Guided update check.",
+      "Packaged LICENSE, EULA, PRIVACY, CHANGELOG, and third-party notices."
+    ]
+  }
 }
