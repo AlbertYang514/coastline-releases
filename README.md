@@ -144,20 +144,21 @@ Coastline 目前还没有进行 Apple 开发者签名和 notarization 公证。
 - “应用已损坏，无法打开”；
 - “无法验证开发者”。
 
-这是当前 beta 版的已知情况。
+这是当前的已知情况。
 
 推荐打开方式：
 
-1. 将 `Coastline.app` 拖入“应用程序”文件夹。
-2. 打开 **系统设置 → 隐私与安全性**。
-3. 找到 Coastline 的拦截提示。
-4. 点击 **仍要打开 / Open Anyway**。
-5. 再次确认打开。
-
-如果系统仍提示“应用已损坏”，高级用户可以在终端运行：
+请在终端运行：
 
 ```bash
 xattr -dr com.apple.quarantine "/Applications/Coastline.app"
+open "/Applications/Coastline.app"
+```
+
+如果系统仍提示“应用已损坏”，可以在终端运行：
+
+```bash
+sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
 ```
 
@@ -354,11 +355,12 @@ This is expected for the current beta release.
 
 Recommended opening method:
 
-1. Move `Coastline.app` to the `Applications` folder.
-2. Open **System Settings → Privacy & Security**.
-3. Find the blocked Coastline message.
-4. Click **Open Anyway**.
-5. Confirm that you want to open the app.
+Please run this command in terminal:
+
+```bash
+xattr -dr com.apple.quarantine "/Applications/Coastline.app"
+open "/Applications/Coastline.app"
+```
 
 If macOS still reports that the app is damaged, advanced users may remove the quarantine attribute manually:
 
