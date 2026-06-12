@@ -1,29 +1,3 @@
-# Coastline Releases
-
-This repository stores public release artifacts and release metadata for Coastline.
-
-## Current release
-
-### Coastline 1.4.0
-
-Artifacts are stored in:
-
-`releases/1.4.0/`
-
-Current release artifacts:
-
-- `Coastline-1.4.0-macOS.dmg`
-- `CoastlineSetup-1.4.0-win-x64.exe`
-
-macOS SHA256:
-
-`8d1b703f938f684e5fcee6c427cbf5f5265bef45b72f4d2cacef4e5d7cac4c23`
-
-Windows SHA256:
-
-`54113161d413eac9d43388995fc78c27037d8d93dbe6ad5a03d87f601073cc43`
-
-
 # Coastline
 
 **A Narrative Control System**
@@ -34,45 +8,21 @@ https://usecoastline.com
 
 ## Download / 下载
 
-**Latest release / 最新版本：Coastline 1.4.0 Beta**
+**Latest release / 最新版本：Coastline 1.3.2 Beta**
 
 **GitHub Releases / 安装包下载：**  
-https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.4.0
+https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.3.2
 
 当前提供：
 
-- macOS：`Coastline-1.4.0-macOS.dmg`
-- Windows：`CoastlineSetup-1.4.0-win-x64.exe`
+- macOS：`Coastline-1.3.2-macOS.dmg`
+- Windows：`Coastline-1.3.2-win-x64.exe`
 
 安装包请从 GitHub Releases 下载。文件校验与版本索引：
 
 - `catalog.json`
 
 ---
-
----
-
-## Coastline 1.4.0 更新内容
-
-Coastline 1.4.0 Beta 是一次 Local Intelligence 功能增强与稳定性更新。它不是单纯换版本号，也不只是打包修正；本版本重点改进长篇项目分析、质量问题识别、识别规则兼容、token 控制和本地结果写入安全。
-
-### 新增 / 增强
-
-- 新增 AI 分析状态提示，让章节分析、批量处理和项目初始化过程更清楚。
-- 新增分析预设与 max token 控制，方便在速度、成本和分析深度之间切换。
-- 新增章节分析缓存，减少重复分析相同内容时的不必要模型调用。
-- 新增 Recognition Rules / 识别规则兼容层，使识别规则可以更稳定地参与当前分析流程。
-- 扩展语言与行文质量检查，用于识别非事实类的 prose quality / narrative quality 问题。
-- 改进时间线上下文处理，使用 compact timeline digest 和相关事件检索，降低长篇项目 token 压力。
-- 新增用户流程模拟脚本与更完整的 release sanity check，覆盖缓存、检索、质量检查和识别规则兼容。
-
-### 修复 / 加固
-
-- 改进分析文本质量处理，减少模型输出格式或文本质量异常带来的后续问题。
-- 强化本地分析结果合并逻辑，使事实、时间线、人物状态和 issue 的写入边界更保守。
-- 收紧 issue 解决流程，避免自动破坏性关闭或删除问题记录。
-- 修复 Windows installer 产物命名检查不一致的问题。
-- 统一 1.4.0 macOS / Windows 安装包命名和校验信息。
 
 ## 产品介绍
 
@@ -160,7 +110,7 @@ Coastline 当前是早期 beta 版本，可能存在 bug。
 
 ## macOS 安装说明
 
-1. 下载 `Coastline-1.4.0-macOS.dmg`。
+1. 下载 `Coastline-1.3.2-macOS.dmg`。
 2. 打开 DMG 文件。
 3. 将 `Coastline.app` 拖入“应用程序”文件夹。
 4. 从"应用程序"中打开 Coastline。
@@ -193,7 +143,7 @@ sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 
 ## Windows 安装说明
 
-1. 下载 `CoastlineSetup-1.4.0-win-x64.exe`。
+1. 下载 `Coastline-1.3.2-win-x64.exe`。
 2. 运行安装包。
 3. 按安装向导完成安装。
 4. 从开始菜单或桌面快捷方式打开 Coastline。
@@ -249,12 +199,12 @@ Current release:
 
 - **Coastline 1.3.2 Beta**
 - Official website: https://usecoastline.com
-- Download: https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.4.0
+- Download: https://github.com/AlbertYang514/coastline-releases/releases/tag/v1.3.2
 
 Available builds:
 
-- macOS: `Coastline-1.4.0-macOS.dmg`
-- Windows: `CoastlineSetup-1.4.0-win-x64.exe`
+- macOS: `Coastline-1.3.2-macOS.dmg`
+- Windows: `Coastline-1.3.2-win-x64.exe`
 
 Coastline stores project files locally by default. It does not provide cloud sync, user accounts, or online storage.
 
