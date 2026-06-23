@@ -158,8 +158,8 @@ Coastline 目前还没有进行 Apple 开发者签名和 notarization 公证。
 xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
 ```
-
-如果系统仍提示“应用已损坏”，可以在终端运行：
+如果 Coastline 没有安装在“应用程序”文件夹，请把上面的路径替换为实际的 `Coastline.app` 路径。
+如果系统仍提示“应用已损坏”，必要时也可以使用：
 
 ```bash
 sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
@@ -369,6 +369,8 @@ Please run this command in terminal:
 xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
 ```
+
+If Coastline is installed somewhere other than the `Applications` folder, replace the path below with the actual `Coastline.app` path.
 
 If macOS still reports that the app is damaged, advanced users may remove the quarantine attribute manually:
 
