@@ -159,13 +159,7 @@ xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
 ```
 
-<<<<<<< HEAD
 如果系统仍提示“应用已损坏”，可以在终端运行：
-=======
-如果 Coastline 没有安装在“应用程序”文件夹，请把上面的路径替换为实际的 `Coastline.app` 路径。
-
-必要时也可以使用：
->>>>>>> e31b40a (docs: clarify cloud server statement and website links)
 
 ```bash
 sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
