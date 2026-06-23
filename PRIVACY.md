@@ -15,7 +15,7 @@ Coastline 是本地优先软件。
 
 当前版本支持 OpenAI-compatible provider 配置；用户可以根据自己的服务商填写 Base URL、API key 和模型名称。项目默认示例模型为 `deepseek-v4-pro`，相关 API 请求由用户自行配置的第三方模型 API key 发起。
 
-开发者不运营任何用于 Coastline 的云端服务器，不论该服务器位于中国大陆境内或境外。
+开发者不运营任何用于 Coastline 核心功能的云端服务器，不论该服务器位于中国大陆境内或境外。
 
 开发者不提供任何 Coastline 云账号系统，不论该账号系统位于中国大陆境内或境外。
 
@@ -143,7 +143,7 @@ In the current version, user data is processed only in the following places:
 
 The current version supports OpenAI-compatible provider configuration. Users may configure the Base URL, API key, and model name for their chosen provider. The default example model is `deepseek-v4-pro`, and related API requests are made with the third-party model API key configured by the user.
 
-The developer does not operate any cloud server for Coastline, whether inside or outside mainland China.
+The developer does not operate any cloud server for Coastline's core application features, whether inside or outside mainland China.
 
 The developer does not provide any Coastline cloud account system, whether inside or outside mainland China.
 
