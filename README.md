@@ -135,20 +135,10 @@ Coastline 当前是早期 beta 版本，可能存在 bug。
 
 1. 下载 `Coastline-2.0.0-macOS.dmg`。
 2. 打开 DMG 文件。
-3. 将 `Coastline.app` 拖入“应用程序”文件夹。
-4. 从“应用程序”中打开 Coastline。
+3. 将 `Coastline.app` 拖入"应用程序"文件夹。
+4. 从"应用程序"中打开 Coastline。
 
 ### macOS 安全提示
-
-Coastline 目前还没有进行 Apple 开发者签名和 notarization 公证。
-
-第一次打开 macOS 版时，系统可能提示：
-
-- “Apple 无法检查其是否包含恶意软件”；
-- “应用已损坏，无法打开”；
-- “无法验证开发者”。
-
-这是当前的已知情况。
 
 推荐打开方式：
 
@@ -158,13 +148,13 @@ Coastline 目前还没有进行 Apple 开发者签名和 notarization 公证。
 xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
 ```
-如果 Coastline 没有安装在“应用程序”文件夹，请把上面的路径替换为实际的 `Coastline.app` 路径。
-如果系统仍提示“应用已损坏”，必要时也可以使用：
 
-```bash
+如果 Coastline 没有安装在"应用程序"文件夹，请把上面的路径替换为实际的 Coastline.app 路径。
+
+如果系统仍提示"应用已损坏"，必要时也可以使用：
+
 sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
-```
 
 请只从官方 Release 页面下载安装包。若你不信任来源，请不要安装。
 
@@ -351,42 +341,19 @@ Please back up your writing projects, exported files, and important materials be
 
 ### macOS Gatekeeper notice
 
-Coastline is currently not code-signed or notarized.
-
-When opening the macOS app for the first time, macOS may show warnings such as:
-
-- "Coastline" cannot be opened because Apple cannot check it for malicious software.
-- "Coastline" is damaged and can't be opened.
-- The developer cannot be verified.
-
-This is expected for the current beta release.
-
 Recommended opening method:
 
-Please run this command in terminal:
+Please run this command in Terminal:
 
-```bash
 xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
-```
 
-If Coastline is installed somewhere other than the `Applications` folder, replace the path below with the actual `Coastline.app` path.
+If Coastline is installed somewhere other than the Applications folder, replace the path above with the actual Coastline.app path.
 
-If macOS still reports that the app is damaged, advanced users may remove the quarantine attribute manually:
+If macOS still reports that the app is damaged, advanced users may use:
 
-```bash
 sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
 open "/Applications/Coastline.app"
-```
-
-If Coastline is installed somewhere other than the `Applications` folder, replace the path above with the actual `Coastline.app` path.
-
-If needed, you may also run:
-
-```bash
-sudo xattr -dr com.apple.quarantine "/Applications/Coastline.app"
-open "/Applications/Coastline.app"
-```
 
 Only install Coastline if you downloaded it from the official release page and trust the developer.
 
